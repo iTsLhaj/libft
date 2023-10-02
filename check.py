@@ -44,14 +44,6 @@ if __name__ == "__main__":
         commit_msg
     ], stderr=subprocess.STDOUT, stdout=subprocess.DEVNULL)
 
-    subprocess.call([
-        "git",
-        "push",
-        "-u",
-        "origin",
-        "master"
-    ])
-
     os.system("clear")
     print("\n")
     for file in files:
