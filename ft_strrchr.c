@@ -6,7 +6,7 @@
 /*   By: hmouhib <hmouhib@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/01 04:48:42 by hmouhib           #+#    #+#             */
-/*   Updated: 2023/10/02 03:43:27 by hmouhib          ###   ########.fr       */
+/*   Updated: 2023/10/02 05:11:01 by hmouhib          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char    *ft_strchr(const char *s, int c)
     while (s[i])
     {
         if (s[i] == c)
-            last = &s[i];
+            last = (char *)&s[i];
         i++;
     }
     return (last);

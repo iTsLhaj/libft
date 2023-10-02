@@ -6,7 +6,7 @@
 /*   By: hmouhib <hmouhib@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/01 22:44:24 by hmouhib           #+#    #+#             */
-/*   Updated: 2023/10/02 03:43:27 by hmouhib          ###   ########.fr       */
+/*   Updated: 2023/10/02 05:06:09 by hmouhib          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,5 +15,5 @@
 
 void    ft_putchar_fd(char c, int fd)
 {
-    write(fd, c, 1);
+    write(fd, &c, 1);
 }
