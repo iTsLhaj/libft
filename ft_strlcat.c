@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   strlcat.c                                          :+:      :+:    :+:   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hmouhib <hmouhib@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/01 04:42:31 by hmouhib           #+#    #+#             */
-/*   Updated: 2023/10/02 02:15:36 by hmouhib          ###   ########.fr       */
+/*   Updated: 2023/10/02 03:43:27 by hmouhib          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "libft.h"
 #include <string.h>
 
 size_t  ft_strlcat(char *dest, const char *src, size_t size)

@@ -6,11 +6,11 @@
 /*   By: hmouhib <hmouhib@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/01 21:03:43 by hmouhib           #+#    #+#             */
-/*   Updated: 2023/10/02 02:06:15 by hmouhib          ###   ########.fr       */
+/*   Updated: 2023/10/02 03:43:27 by hmouhib          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "libft.h"
 #include <unistd.h>
 
 void    ft_putstr(char const *s)

@@ -6,11 +6,11 @@
 /*   By: hmouhib <hmouhib@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/01 17:43:25 by hmouhib           #+#    #+#             */
-/*   Updated: 2023/10/02 02:11:16 by hmouhib          ###   ########.fr       */
+/*   Updated: 2023/10/02 03:43:27 by hmouhib          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "libft.h"
 
 char    *ft_strtrim(char const *s)
 {
