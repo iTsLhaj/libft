@@ -6,13 +6,13 @@
 /*   By: hmouhib <hmouhib@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/01 05:06:12 by hmouhib           #+#    #+#             */
-/*   Updated: 2023/10/02 03:43:27 by hmouhib          ###   ########.fr       */
+/*   Updated: 2023/10/02 04:49:24 by hmouhib          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int     ft_atoi(const char nptr)
+int     ft_atoi(const char *nptr)
 {
     int i;
     int n;
