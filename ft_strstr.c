@@ -6,7 +6,7 @@
 /*   By: hmouhib <hmouhib@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/01 04:51:14 by hmouhib           #+#    #+#             */
-/*   Updated: 2023/10/02 04:49:03 by hmouhib          ###   ########.fr       */
+/*   Updated: 2023/10/02 05:02:53 by hmouhib          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char    *ft_strstr(const char *haystack, const char *needle)
     while (haystack[i])
     {
         ph = (void *)&haystack[i];
-        if (ft_memcmp(ph, needle, sizeof(haystack[i])) == 0)
+        if (ft_memcmp(ph, needle, ft_strlen(haystack)) == 0)
             return (&haystack[i]);
         i++;
     }
