@@ -50,7 +50,7 @@ if __name__ == "__main__":
         "-u",
         "origin",
         "master"
-    ], stderr=subprocess.STDOUT, stdout=subprocess.DEVNULL)
+    ])
 
     os.system("clear")
     print("\n")
