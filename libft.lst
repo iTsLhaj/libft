@@ -1,5 +1,0 @@
-look for a tester
-fix known errors like comparing between size_t and int
-add ft_ to functions prototypes & call's
-then test
-make re
