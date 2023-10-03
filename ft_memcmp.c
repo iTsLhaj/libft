@@ -6,27 +6,27 @@
 /*   By: hmouhib <hmouhib@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/01 04:20:44 by hmouhib           #+#    #+#             */
-/*   Updated: 2023/10/02 05:05:32 by hmouhib          ###   ########.fr       */
+/*   Updated: 2023/10/03 21:05:58 by hmouhib          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <string.h>
 
-int ft_memcmp(void *dest, const void *src, size_t n)
+int ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-    unsigned char       *_dest;
-    const unsigned char *_src;
     size_t              i;
+    const unsigned char *s1_;
+    const unsigned char *s2_;
 
     i = 0;
-    _dest = (unsigned char *)dest;
-    _src = (const unsigned char *)src;
-    while (_dest[i] && _src[i] && i < n)
+    s1_ = s1;
+    s2_ = s2;
+    while (i < n)
     {
-        if (_dest[i] != _src[i])
-            return (_dest[i] - _src[i]);
-        i += sizeof(_src[i]);
+        if (*(s1_ + i) != *(s2_ + i))
+            return (*(s1_ + i) - *(s2_ + i));
+        i++;
     }
-    return (_dest[i] - _src[i]);
+    return (0);
 }
